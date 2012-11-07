@@ -1,0 +1,31 @@
+#summary Vista/Windows7/8下安裝
+#labels Featured
+
+= 安裝 =
+
+1. 下載 TableTextService123.txt 檔, 將檔案複製到 C:\Program Files\Windows NT\TableTextService 資料夾下
+
+2. 用Administrator權限執行cmd指令
+
+3. 進入資料夾 
+
+{{{
+cd C:\Program Files\Windows NT\TableTextService
+}}}
+
+4. 執行命令
+
+{{{
+Rundll32 TabelTextService.dll RegisterProfile TableTextService123.txt 
+}}}
+
+5. 打開輸入法列選項＞設定值，進入”文字服務和輸入語言”, 
+選擇新增> “中文(正體)-123 輸入法”後，按下”確定”，即可使用。
+
+= 移除 =
+
+執行命令
+
+{{{
+Rundll32 TabelTextService.dll UnregisterProfile TableTextService123.txt 
+}}}
