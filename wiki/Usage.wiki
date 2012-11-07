@@ -1,4 +1,5 @@
 #summary 使用說明
+#labels Featured
 
 = 簡介 =
 
