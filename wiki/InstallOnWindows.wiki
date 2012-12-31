@@ -33,5 +33,5 @@ cd C:\Program Files\Windows NT\TableTextService
 2. 執行命令
 
 {{{
-Rundll32 TabelTextService.dll UnregisterProfile TableTextService123.txt 
+Rundll32 TableTextService.dll UnregisterProfile TableTextService123.txt 
 }}}
