@@ -16,7 +16,7 @@ cd C:\Program Files\Windows NT\TableTextService
 4. 執行命令
 
 {{{
-Rundll32 TabelTextService.dll RegisterProfile TableTextService123.txt 
+Rundll32 TableTextService.dll RegisterProfile TableTextService123.txt 
 }}}
 
 5. 打開輸入法列選項＞設定值，進入”文字服務和輸入語言”, 
@@ -24,7 +24,13 @@ Rundll32 TabelTextService.dll RegisterProfile TableTextService123.txt
 
 = 移除 =
 
-執行命令
+1. 進入資料夾 
+
+{{{
+cd C:\Program Files\Windows NT\TableTextService
+}}}
+
+2. 執行命令
 
 {{{
 Rundll32 TabelTextService.dll UnregisterProfile TableTextService123.txt 
