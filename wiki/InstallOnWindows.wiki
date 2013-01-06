@@ -1,7 +1,17 @@
 #summary Vista/Windows7/8下安裝
 #labels Featured
 
-= 安裝 =
+= 安裝說明(建議使用方式) =
+
+請先安裝支援.cin格式的輸入法框架（如YAHOO奇摩輸入法、XCIN、Open Vanilla等，在此以YAHOO奇摩輸入法為例）
+
+1. 下載後點選 123.cin 檔案，選擇安裝到YAHOO奇摩輸入法中。
+
+2. 打開輸入法工具列，選擇"123"後，即可開始使用。
+
+
+
+= Windows內建輸入法安裝（選用，已知在有的測試Win7系統上無法在word中輸入中文） =
 
 1. 下載 TableTextService123.txt 檔, 將檔案複製到 C:\Program Files\Windows NT\TableTextService 資料夾下
 
